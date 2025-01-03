@@ -61,3 +61,22 @@
     position: relative;
     top: 110px;
 }
+.part-2{
+    display: flex;
+    justify-content: center;
+}
+.test-2{
+    max-width: 350px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.h2-1{
+    color: #49535B;
+}
+.p3{
+    color: #acaeae;
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 70px;
+}
