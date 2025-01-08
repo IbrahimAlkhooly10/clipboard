@@ -149,3 +149,149 @@ body {
 .ico{
     margin-left: 90px;
 }
+.part-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 170px;  
+}
+footer{
+    height: 180px;
+    background-color: #F5F6F8;
+    margin-top: 100px;
+}
+.p6{
+    color:  #7f8080;
+    font-size: 18px;
+    line-height: 45px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding-top: 56px;
+}
+.p9{
+    color: #acaeae;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+.p10{
+    color: #acaeae;
+    width: 700px;
+    font-size: 17px;
+    line-height: 30px; 
+}
+@media all and (max-width: 430px) {
+    .h1-1{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    .p1{
+        width: 375px;
+    }
+    .button-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .but-1{
+        width: 330px;
+    }
+    .but-2{
+        width: 330px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .track{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    .h1-2{
+        margin-right: 50px;
+        width: 380px;
+    }
+    .p2{
+        width: 350px;
+    }
+    .part-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .desktop{
+        margin-left: 187px;
+        width: 350px;
+    }
+    .test-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50px;
+        width: 350px;
+    }
+    .h1-3{
+        width: 500px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .p4{
+        width: 300px;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    .iphone{
+        width: 365px;
+    }.p9{
+        font-size: 18px;
+        
+    }
+    .part-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .icones{
+        margin-right: 90px;
+       display: flex;
+       flex-direction: column;
+    }
+    .ico{
+        padding: 50px;
+    }
+    .h1-3{
+
+    }
+    .p10{
+        width: 350px;
+    }
+    footer{
+        max-width: 430px;
+        height: 450px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 50px 0 0;
+    }
+    .last-logo{
+        margin-right: 170px;
+        margin-bottom: 30px;
+    }
+    .footer-4{
+        position: relative;
+        left: 40px;
+        top: 30px;
+    }
+}
