@@ -20,7 +20,7 @@
 }
 .p1{
     color: #acaeae;
-    font-size: 20px;
+    font-size: 22px;
 }
 .button-1{
     margin: 50px;
@@ -40,9 +40,11 @@
 .but-1{
     background-color: #5ABCA6;
     margin-right: 25px;
+    box-shadow: 0 6px 7px rgba(0, 0, 0, 0.2);
 }
 .but-2{
     background-color: #6172FC;
+    box-shadow: 0 6px 7px rgba(0, 0, 0, 0.2);
 }
 .h1-2{
     color: #49535B;
@@ -97,6 +99,14 @@
     font-size: 35px;
     margin-bottom: 30px;
 }
+.h1-4{
+    color: #49535B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
 .p4{
     color: #acaeae;
     width: 700px;
@@ -120,6 +130,12 @@ body {
     margin-top: 60px;
 }
 .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,19 +202,28 @@ footer{
     width: 700px;
     font-size: 17px;
     line-height: 30px; 
+    text-align: center;
 }
 @media all and (max-width: 430px) {
+    .p3{
+        text-align: center;
+    }
     .h1-1{
         font-size: 50px;
-        margin-left: 50px;
+        margin-left: 10px;
+        text-align: center;
     }
     .p1{
         width: 375px;
+        margin-left: 30px;
     }
     .button-1{
         display: flex;
         flex-direction: column;
         margin-left: 60px;
+    }
+    .the-first{
+
     }
     .but-1{
         width: 330px;
@@ -216,11 +241,20 @@ footer{
         margin-right: 100px;
     }
     .h1-2{
-        margin-right: 50px;
+        margin-right: 90px;
         width: 380px;
+        text-align: center;
+    }
+    .h1-4{
+        font-size: 40px;
+        text-align: center;
+    }
+    .first-2{
+        margin-top: 40px;
     }
     .p2{
         width: 350px;
+        text-align: center;
     }
     .part-2{
         display: flex;
@@ -247,6 +281,7 @@ footer{
         width: 300px;
         margin-left: 100px;
         font-size: 20px;
+        text-align: center;
     }
     .iphone{
         width: 365px;
@@ -270,13 +305,14 @@ footer{
     }
     .h1-3{
 
+
     }
     .p10{
         width: 350px;
     }
     footer{
-        max-width: 430px;
-        height: 450px;
+        width: 430px;
+        height: 455px;
     }
     .footer{
         display: flex;
@@ -290,8 +326,15 @@ footer{
         margin-bottom: 30px;
     }
     .footer-4{
-        position: relative;
-        left: 40px;
-        top: 30px;
+        margin-top: 30px;
+        margin-right: 549px;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-1 , .footer-2 , .footer-3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 40px;
     }
 }
