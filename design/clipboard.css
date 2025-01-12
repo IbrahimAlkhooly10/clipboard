@@ -20,7 +20,9 @@
 }
 .p1{
     color: #acaeae;
-    font-size: 22px;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight:lighter;
 }
 .button-1{
     margin: 50px;
@@ -113,6 +115,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 17px;
     line-height: 30px;
 }
@@ -148,6 +151,7 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 30px;
+    text-align: center;
 }
 .h2-2{
     color: #49535B;
@@ -190,9 +194,7 @@ footer{
 .p9{
     color: #acaeae;
     width: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 17px;
     line-height: 30px;
 
@@ -213,6 +215,9 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 350px;
+    }
+    .p6{
+        margin-bottom: 0px;
     }
     .p3{
         text-align: center;
@@ -288,16 +293,16 @@ footer{
     }
     .h1-3{
         width: 300px;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 100;
+        text-align: center;
     }
     .test3{
         display: flex;
-        
+
     }
     .p4{
         width: 300px;
-        margin-left: 100px;
         font-size: 20px;
         text-align: center;
     }
@@ -305,7 +310,8 @@ footer{
         width: 365px;
     }.p9{
         font-size: 18px;
-        
+        text-align: center;
+        width: 300px;
     }
     .part-4{
         display: flex;
@@ -348,6 +354,8 @@ footer{
         margin-right: 549px;
         display: flex;
         flex-direction: row;
+        position: relative;
+        bottom: 40px;
     }
     .footer-1 , .footer-2 , .footer-3{
         display: flex;
@@ -355,4 +363,160 @@ footer{
         text-align: center;
         margin-right: 40px;
     }
+}
+@media (min-width: 720px) and (max-width: 1024px) {
+    .container {
+        padding-top: 400px;
+
+    }
+    .footer-4{
+        display: none;
+    }
+    
+    .the-first{
+        display: none;
+    }
+    .part-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .desktop{
+        width: 850px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+        margin-right: 0px;
+        margin-left: 240px;
+    }
+    .iphone{
+        width: 850px;
+    }
+    .test-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        text-align: center;
+        margin: auto;
+        font-size: 32px;
+    }
+    .p3{
+        font-size: 27px;
+        line-height: 35px;
+
+    }
+    .p1{
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .p2{
+        font-size: 27px;
+        line-height: 35px;
+        width: ;
+    }
+    .p4{
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .p9{
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .h1-3{
+        font-size: 35px;
+    }
+    .part-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .first , .first-2{
+        font-size: 27px;
+    }
+    .first-2 {
+        margin-top: 60px;
+    }
+    .h2-2{
+        font-size: 30px;
+    }
+    .icones{
+        margin-right: 90px;
+        display: flex;
+        flex-direction: column;
+
+    }.ico{
+        padding: 70px;
+        width: 220px;
+    }
+    .p10{
+        font-size: 27px;
+        line-height: 35px;
+
+    }
+    .footer-4{
+    }
+}
+@media (min-width: 768px) and (max-width: 768px){
+    .desktop{
+        width: 710px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+        margin-right: 0px;
+        margin-left: 190px;
+
+    }
+    .iphone{
+        width: 740px;
+    }
+    .p2{
+        width: 710px;
+        margin-right: 110px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .test{
+        padding-left: 30px;
+    }
+    footer{
+        height: 250px;
+        width: 790px;
+    }
+    .footer{
+        position: relative;
+        right: 100px;
+    }
+}
+@media (min-width: 820px) and (max-width: 820px){
+    .desktop{
+        width: 750px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+        margin-right: 0px;
+        margin-left: 175px;
+
+    }
+    footer{
+        height: 245px; 
+    }
+    .footer{
+        position: relative;
+        right: 100px;
+    }
+    .p2{
+        width: 710px;
+        margin-right: 110px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
 }
