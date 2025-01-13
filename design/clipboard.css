@@ -42,11 +42,17 @@
 .but-1{
     background-color: #5ABCA6;
     margin-right: 25px;
-    box-shadow: 0 6px 7px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #4C9F89;
+    border-right: 1px solid #4C9F89;
+    border-left: 1px solid #4C9F89;
+    box-shadow: 0 5px 6px #83f4db;
 }
 .but-2{
     background-color: #6172FC;
     box-shadow: 0 6px 7px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #5161D8;
+    border-right: 1px solid #5161D8;
+    border-left: 1px solid #5161D8;
 }
 .h1-2{
     color: #49535B;
@@ -350,18 +356,24 @@ footer{
         margin-bottom: 30px;
     }
     .footer-4{
-        margin-top: 30px;
-        margin-right: 549px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        bottom: 40px;
+        left: 25px;
+        bottom: 15px;
     }
     .footer-1 , .footer-2 , .footer-3{
         display: flex;
         flex-direction: column;
         text-align: center;
         margin-right: 40px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 4024px){
+    .footer-4{
+        position: relative; left: 300px;
     }
 }
 @media (min-width: 720px) and (max-width: 1024px) {
@@ -415,7 +427,6 @@ footer{
     .p2{
         font-size: 27px;
         line-height: 35px;
-        width: ;
     }
     .p4{
         font-size: 27px;
